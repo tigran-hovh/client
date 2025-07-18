@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import client from 'socket.io-client';
 
-const socket = client.io('http://localhost:3000');
+const socket = client.io('https://server-q3qs.onrender.com');
 
 function App() {
   const [count, setCount] = useState(0);
